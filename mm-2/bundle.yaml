@@ -1,0 +1,9 @@
+id: "mm-2"
+version: "1"
+apiVersion: "1"
+description: "mm-2 child bundle"
+parent: "bundle-global"
+jcasc:
+  - "jenkins.yaml"
+items:
+  - "items.yaml"
