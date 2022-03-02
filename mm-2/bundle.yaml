@@ -5,5 +5,3 @@ description: "mm-2 child bundle"
 parent: "bundle-global"
 jcasc:
   - "jenkins.yaml"
-items:
-  - "items.yaml"

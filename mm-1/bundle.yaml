@@ -5,5 +5,3 @@ description: "CasC child bundle"
 parent: "bundle-global"
 jcasc:
   - "jenkins.yaml"
-items:
-  - "items.yaml"
