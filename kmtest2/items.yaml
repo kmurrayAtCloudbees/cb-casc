@@ -1,0 +1,23 @@
+removeStrategy:
+  rbac: SYNC
+  items: NONE
+items:
+- kind: pipeline
+  name: test_kgh
+  concurrentBuild: true
+  definition:
+    cpsScmFlowDefinition:
+      scriptPath: jenkinsfile-pod-template-in-pipeline
+      scm:
+        scmGit:
+          userRemoteConfigs:
+          - userRemoteConfig:
+              url: https://github.com/kmurrayAtCloudbees/jenkinsfile-library
+          branches:
+          - branchSpec:
+              name: '*/master'
+      lightweight: true
+  description: ''
+  disabled: false
+  displayName: test_kgh
+  resumeBlocked: false
