@@ -8,9 +8,9 @@ version: "1"
 name: "plugin-catalog"
 displayName: "Plugin Catalog"
 configurations:
-  - description: "These are Non-CAP plugins for version 2.516.2.28991"
-    prerequisites:
-      productVersion: "[2.516.2.28991]"
+  - description: "These are Non-CAP plugins"
+#    prerequisites:
+#      productVersion: "[2.516.2.28991]"
     includePlugins:
       resource-disposer:
         version: "0.25"
