@@ -1,6 +1,6 @@
 apiVersion: "1"
 id: "TradBundle"
 description: "Traditional CasC Bundle"
-version: "2.1"
+version: "2.2"
 plugins:
   - "plugins-cap.yaml"
