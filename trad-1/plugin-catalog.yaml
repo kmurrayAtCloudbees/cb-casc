@@ -19,6 +19,8 @@ configurations:
       version: '1.3'
     file-operations:
       version: 353.vf3b_9b_a_f1f7f7
+    folder-properties:
+      version: "57.vde5161ec7a_b_a_"
     golang:
       version: '1.4'
     hidden-parameter:
