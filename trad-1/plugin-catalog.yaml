@@ -1,18 +1,69 @@
-# Annotations (given as a comment above the plugin in question):
-#  tag:custom:version=...    - set a custom version (e.g. 1.0)
-#  tag:custom:url=...        - sets a custom url (e.g. https://artifacts.acme.test/my-plugin/1.0/my-plugin.jpi)
-#  tag:custom:requires=...   - spaced separated list of required dependencies (e.g. badge envinject)
-
-type: "plugin-catalog"
-version: "1"
-name: "plugin-catalog"
-displayName: "Plugin Catalog"
+type: plugin-catalog
+version: '1'
+name: my-plugin-catalog
+displayName: My Plugin Catalog
 configurations:
-  - description: "These are Non-CAP plugins"
-#    prerequisites:
-#      productVersion: "[2.516.2.28991]"
-    includePlugins:
-      resource-disposer:
-        version: "0.25"
-      ws-cleanup:
-        version: "0.49"
+- description: Non-CAP plugins for version 2.516.1.28669
+  # prerequisites:
+   #  productVersion: '[2.516.1.28669]'
+  includePlugins:
+    allure-jenkins-plugin:
+      version: 2.32.0
+    artifactory:
+      version: 4.0.8
+    atlassian-bitbucket-server-integration:
+      version: 4.2.0
+    commons-httpclient3-api:
+      version: 3.1-3
+    disk-usage:
+      version: '1.3'
+    file-operations:
+      version: 353.vf3b_9b_a_f1f7f7
+    golang:
+      version: '1.4'
+    hidden-parameter:
+      version: 504.v610a_b_b_c05003
+    leastload:
+      version: 62.vfa_8830902733
+    lockable-resources:
+      version: 1438.v3c0f8c9e2060
+    maven-plugin:
+      version: '3.27'
+    monitoring:
+      version: 2.5.0
+    nvm-wrapper:
+      version: 0.1.7
+    p4:
+      version: 1.17.2
+    parameter-separator:
+      version: 296.v9b_a_90c81160d
+    parameterized-scheduler:
+      version: 285.ve611986d4c48
+    parameterized-trigger:
+      version: 873.v8b_e37dd8418f
+    pipeline-utility-steps:
+      version: 2.19.0
+    plugin-usage-plugin:
+      version: '4.10'
+    powershell:
+      version: '2.3'
+    promoted-builds:
+      version: 992.va_00888f21b_74
+    rebuild:
+      version: 338.va_0a_b_50e29397
+    resource-disposer:
+      version: '0.25'
+    slack:
+      version: 761.v2a_8770f0d169
+    strict-crumb-issuer:
+      version: 2.1.1
+    thinBackup:
+      version: 2.1.3
+    uno-choice:
+      version: 2.8.8
+    versioncolumn:
+      version: 320.v6b_b_814ca_01f7
+    workflow-remote-loader:
+      version: '1.6'
+    ws-cleanup:
+      version: '0.49'

@@ -1,0 +1,115 @@
+plugins:
+  - id: active-directory  # src cap
+  - id: ant  # src cap
+  - id: antisamy-markup-formatter  # src cap
+  - id: apache-httpcomponents-client-4-api  # src bst cap
+  # - id: apache-httpcomponents-client-5-api  # dep cap
+  # - id: asm-api  # dep bst cap
+  - id: authentication-tokens  # src cap
+  - id: bootstrap5-api  # src cap
+  - id: bouncycastle-api  # src bst cap
+  - id: branch-api  # src cap
+  - id: caffeine-api  # src bst cap
+  - id: checks-api  # src cap 
+  - id: cloudbees-casc-client
+  - id: cloudbees-casc-items-controller
+  - id: cloudbees-github-reporting
+  - id: cloudbees-groovy-view
+  - id: cloudbees-jenkins-advisor
+  - id: cloudbees-monitoring
+  - id: cloudbees-nodes-plus
+  - id: cloudbees-pipeline-explorer
+  - id: cloudbees-ssh-slaves
+  - id: cloudbees-support
+  - id: cloudbees-view-creation-filter
+  - id: cloudbees-workflow-template
+  - id: cloudbees-folder  # src bst cap
+  - id: command-launcher  # src bst cap
+  # - id: commons-compress-api  # dep bst cap
+  - id: commons-lang3-api  # src bst cap
+  - id: commons-text-api  # src bst cap
+  - id: config-file-provider  # src cap
+  - id: copyartifact  # src cap
+  - id: credentials  # src bst cap
+  - id: credentials-binding  # src cap
+  - id: data-tables-api  # src cap
+  - id: display-url-api  # src bst cap
+  - id: docker-commons  # src cap
+  - id: docker-workflow  # src cap
+  - id: durable-task  # src cap
+  - id: echarts-api  # src cap
+  # - id: eddsa-api  # dep cap
+  - id: email-ext
+  - id: font-awesome-api  # src cap
+  - id: git  # src cap
+  - id: git-client  # src cap
+  - id: git-server  # src cap
+  - id: github-branch-source
+  - id: gradle
+  - id: infradna-backup
+  - id: instance-identity  # src bst cap
+  - id: ionicons-api  # src bst cap
+  - id: jackson2-api  # src bst cap
+  - id: jakarta-activation-api  # src bst cap
+  - id: jakarta-mail-api  # src bst cap
+  - id: javadoc  # src cap
+  - id: javax-activation-api  # src bst cap
+  - id: jaxb  # src bst cap
+  # - id: jersey2-api  # dep cap
+  # - id: joda-time-api  # dep bst cap
+  - id: jquery3-api  # src bst cap
+  - id: jsch  # src cap
+  # - id: json-api  # dep bst cap
+  # - id: json-path-api  # dep bst cap
+  # - id: jsoup  # dep cap
+  - id: junit  # src cap
+  - id: ldap
+  - id: mailer  # src bst cap
+  - id: mapdb-api  # src bst cap
+  - id: matrix-auth  # src cap
+  - id: matrix-project  # src cap
+  - id: metrics  # src bst cap
+  - id: mina-sshd-api-common  # src cap
+  - id: mina-sshd-api-core  # src cap
+  - id: nodejs  # src cap
+  # - id: okhttp-api  # dep bst cap
+  - id: operations-center-cloud
+  - id: pipeline-build-step  # src cap
+  - id: pipeline-graph-analysis  # src cap
+  - id: pipeline-groovy-lib  # src cap
+  - id: pipeline-input-step  # src cap
+  - id: pipeline-milestone-step  # src cap
+  - id: pipeline-model-api  # src cap
+  - id: pipeline-model-definition  # src cap
+  - id: pipeline-model-extensions  # src cap
+  - id: pipeline-rest-api  # src cap
+  - id: pipeline-stage-step  # src cap
+  - id: pipeline-stage-tags-metadata  # src cap
+  - id: pipeline-stage-view  # src cap
+  - id: plain-credentials  # src cap
+  - id: plugin-util-api  # src cap
+  - id: resource-disposer
+  - id: scm-api  # src bst cap
+  - id: script-security  # src bst cap
+  - id: snakeyaml-api  # src bst cap
+  - id: ssh-credentials  # src cap
+  - id: ssh-slaves  # src cap
+  - id: sshd  # src cap
+  - id: structs  # src bst cap
+  - id: support-core  # src bst cap
+  - id: timestamper  # src cap
+  - id: token-macro  # src bst cap
+  - id: trilead-api  # src cap
+  - id: variant  # src bst cap
+  - id: workflow-aggregator
+  - id: workflow-cps-checkpoint
+  - id: workflow-api  # src bst cap
+  - id: workflow-basic-steps  # src cap
+  - id: workflow-cps  # src cap
+  - id: workflow-durable-task-step  # src cap
+  - id: workflow-job  # src cap
+  - id: workflow-multibranch  # src cap
+  - id: workflow-scm-step  # src cap
+  - id: workflow-step-api  # src bst cap
+  - id: workflow-support  # src bst cap
+  - id: ws-cleanup
