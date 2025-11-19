@@ -5,6 +5,7 @@ plugins:
   - id: "commons-httpclient3-api"
   - id: "disk-usage"
   - id: "file-operations"
+  - id: "folder-properties"
   - id: "golang"
   - id: "hidden-parameter"
   - id: "leastload"
